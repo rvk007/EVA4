@@ -1,6 +1,6 @@
 # Session 4 - MNIST 99.4% Test Accuracy and Parameter Reduction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dLte9xibE3OZ8jHZCtztV8KzAXxQYLxN)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XW9_0JFhvqMl04SCdSg3IdcilKsM1ko4)
 
 The goal of this assignment is to reach an accuracy of **99.4%** on the _MNIST test dataset_ with a model having following configurations:
 
