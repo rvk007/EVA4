@@ -1,6 +1,6 @@
 # Session 6 - Regularization
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17KifjvdA1L0FmQcs4aOp3pBmlDt3ZXJA)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InAvhalYOpHRkN6oqickgfMmswJdZP7y)
 
 The goal of this assignment is to apply L1 and L2 regularization on the final model from the [previous](../S5/) session and plot the changes in validation loss and accuracy obtained during model training in the following scenarios:
 
@@ -35,10 +35,6 @@ After model training, display 25 misclassified images for L1 and L2 models.
 
 ## Misclassified Images
 
-### Without L1 and L2 Regularization
-
-![plain](images/plain_incorrect_predictions.png)
-
 ### With L1 Regularization
 
 ![plain](images/l1_incorrect_predictions.png)
@@ -46,10 +42,6 @@ After model training, display 25 misclassified images for L1 and L2 models.
 ### With L2 Regularization
 
 ![plain](images/l2_incorrect_predictions.png)
-
-### With L1 and L2 Regularization
-
-![plain](images/l1_l2_incorrect_predictions.png)
 
 ## Project Setup
 
