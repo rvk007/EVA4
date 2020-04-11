@@ -8,6 +8,7 @@ The model reaches a maximum accuracy of **91.11%** on CIFAR-10 dataset using **R
 
 The model uses the library **TensorNet** to train the model. The library can be installed by running the following command  
 `pip install torch-tensornet==0.0.7`
+The source code for the library can be found [here](https://github.com/rvk007/TensorNet).
 
 ### Parameters and Hyperparameters
 
