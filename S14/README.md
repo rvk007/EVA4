@@ -343,6 +343,9 @@ The steps for calculation of bounding box for each image is described in [this](
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EcO1uzaQKPeH-V7z7wIy6X-byVi6Yu3R)
 
+Click on the video below to play  
+[![](http://img.youtube.com/vi/EODXGQvTA2A/0.jpg)](https://www.youtube.com/watch?v=EODXGQvTA2A&feature=youtu.be)
+
 ## Group Members
 
 - Shantanu Acharya (Canvas ID: 25180630)
