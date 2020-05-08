@@ -15,7 +15,7 @@ _Note_: The object should be present in the COCO classes.
 
 ## Part 2 - YOLO v3 with PyTorch
 
-[![Open In Colab](https://colab.research.google.com/drive/1rAqlMqezGeBb12sEVlhDdmNBga9Luzsf)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rAqlMqezGeBb12sEVlhDdmNBga9Luzsf)
 
 Object detection with Yolo v3 using transfer learning on a class that doesn't belong to COCO dataset.
 
