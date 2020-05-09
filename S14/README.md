@@ -1,6 +1,6 @@
 # MOnocular Depth Estimation and SegmenTation (MODEST) Museum Dataset
 
-Link to Dataset: https://drive.google.com/drive/folders/1iETpg1VSnVyA2KTuD4Y1bM6lWAhgF9UN
+Link to Dataset: https://drive.google.com/open?id=1iETpg1VSnVyA2KTuD4Y1bM6lWAhgF9UN
 
 ## Directory Structure
 
