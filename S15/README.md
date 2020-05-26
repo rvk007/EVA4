@@ -28,7 +28,7 @@ So we now know that predicting two different numbers won't be that difficult for
 
 Taking this into consideration I created a pretty small fully convolutional network for MaskNet which takes background and a background-foreground image as input and outputs segmentation masks of the forground.
 
-<p align="center"><img src="images/masknet.png" width="300px" /></p>
+<p align="center"><img src="images/masknet.png" width="400px" /></p>
 
 ### MaskNet Summary
 
@@ -78,8 +78,10 @@ In the architecture **bg** denotes the background image and **bg_fg** denotes ba
 The model is fully convolutional and includes efficient residual up-sampling blocks — decoder — that track high-dimensional regression problems.   
 The first section of the network is proprietary for combining the the inputs together by concatenating them. The second part is a sequence of convolutional and interpolate layers that guide the network in learning its upscaling. In the end a final convolution is applied that yeilds the final predictions. 
 
-<img src="images/encoder.png" width="210px">
-<img src="images/decoder.png" width="210px">
+<p align="center">
+<img src="images/encoder.png">
+<img src="images/decoder.png">
+</p>
 
 ### Approach for DepthNet
 
