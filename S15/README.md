@@ -4,7 +4,7 @@ Depth estimation is a computer vision task designed to estimate depth from a 2D 
 
 |                 Segmentation Masks             |                 Depth Map                    | 
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![seg_mask](/Images/mask.png)                |         ![depth_map](/Images/depth.png)      | 
+|   ![seg_mask](images/mask.png)                |         ![depth_map](images/depth.png)      | 
 
 In this project I made a DepthNet Architecture which takes background and a background-foreground image as input and produces their corresponding depth mappings and segmentation masks of the forground.
 
@@ -20,7 +20,7 @@ The project is divided into two segments focusing on the two different outputs o
 The motive of this architecture is to produce Segmentation masks of the given image.
 
 
-<p style="text-align:center"><img src="Images/masks.png" width="350px" class="center"/></p>
+<p style="text-align:center"><img src="images/masks.png" width="350px" class="center"/></p>
 
 A image is a matrix for the computer and in this particular image we require only two pixel values, i.e., 0(Black) and 1(White). We know the power of deep learning, it is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example. Deep learning is a key technology behind driverless cars, it is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It’s achieving results that were not possible before.
 
@@ -28,7 +28,7 @@ So we now know that predicting two different numbers won't be that difficult for
 
 Taking this into consideration I created a pretty small fully convolutional network for MaskNet which takes background and a background-foreground image as input and outputs segmentation masks of the forground.
 
-<p style="text-align:center"><img src="Images/Masknet.png" width="300px" /></p>
+<p style="text-align:center"><img src="images/Masknet.png" width="300px" /></p>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BFIp-rdOjE4C-PcV6Jm_A7F4NuQRIhj_?usp=sharing)  
 
@@ -58,7 +58,7 @@ The encoding for **Segmentation masks** is stopped early than Depth Maps, as I u
 
 ### Predictions
 
-![seg_mask](/Images/1.png)  
+![seg_mask](images/1.png)  
 
 ## Parameters and Hyperparameters
 

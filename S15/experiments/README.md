@@ -11,12 +11,12 @@ Applied a combination of RMSE, BCEwithLogitsLoss and Dice Loss on the DepthNet m
 
 |                 Segmentation Masks             |                 Depth Map                    | 
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![seg_mask](Image/rbd_mask.png)             |     ![depth_map](Image/rbd_depth.png)       | 
+|   ![seg_mask](image/rbd_mask.png)             |     ![depth_map](image/rbd_depth.png)       | 
 
 ### Results
 |                 IOU                            |                 Validation Loss              |
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![iou](Image/rbd_iou.png)                    |         ![loss](Image/rbd_loss.png)          |
+|   ![iou](image/rbd_iou.png)                    |         ![loss](image/rbd_loss.png)          |
 
 
 
@@ -31,13 +31,13 @@ Applied enhanced BCEwithLogitsLoss with Rmse Loss and Learning Rate=0.01.
 
 |                 Segmentation Masks             |                 Depth Map                    | 
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![seg_mask](Image/enhance_mask.png)         |   ![depth_map](Image/enhance_depth.png)     | 
+|   ![seg_mask](image/enhance_mask.png)         |   ![depth_map](image/enhance_depth.png)     | 
 
 
 ### Results
 |                 IOU                            |                 Validation Loss              |
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![iou](Image/enhance_iou.png)                |         ![loss](Image/enhance_loss.png)      |
+|   ![iou](image/enhance_iou.png)                |         ![loss](image/enhance_loss.png)      |
 
 ### Predictions
 ![output](image/2.png)
@@ -56,12 +56,12 @@ Applied Data Augmentation
 
 |                 Segmentation Masks             |                 Depth Map                    | 
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![seg_mask](Image/albu_mask.png)            |    ![depth_map](Image/albu_depth.png)       | 
+|   ![seg_mask](image/albu_mask.png)            |    ![depth_map](image/albu_depth.png)       | 
 
 ### Results
 |                 IOU                            |                 Validation Loss              |
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![iou](Image/albu_iou.png)                   |         ![loss](Image/albu_loss.png)      
+|   ![iou](image/albu_iou.png)                   |         ![loss](image/albu_loss.png)      
    |
 ### Predictions
 ![output](image/3.png)
@@ -78,9 +78,9 @@ Created a architecture similar to U-NET, applied a combination of BCEWithLogitsL
 
 |                 Segmentation Masks             |                 Depth Map                    | 
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![seg_mask](Image/unet.png)             |    ![depth_map](Image/unet_depth.png)        | 
+|   ![seg_mask](image/unet.png)             |    ![depth_map](image/unet_depth.png)        | 
 
 ### Results
 |                 IOU                            |                 Validation Loss              |
 | :--------------------------------------------: | :------------------------------------------: |
-|   ![iou](Image/n_bce_iou.png)                  |         ![loss](Image/n_bce_loss.png)        |
+|   ![iou](image/n_bce_iou.png)                  |         ![loss](image/n_bce_loss.png)        |
