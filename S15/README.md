@@ -73,7 +73,7 @@ The encoding for **Segmentation masks** is stopped early than Depth Maps, as I u
 
 ## Dataset Preparation
  The dataset consist of 400000 **bg_fg**, 400000 **bg_fg_masks** which are segmentation masks of te foreground and 400000 **bg_fg_depth** which are depth estimation maps and 100 different **bg** and 100 different **fg** on which the whole dataset is created.
- The complete procedure of dataset preparation is explained here ![](https://github.com/rvk007/MODEST-Museum-Dataset).
+ The complete procedure of dataset preparation is explained [here](https://github.com/rvk007/MODEST-Museum-Dataset).
 
 
 ## Data Augmentation
@@ -108,7 +108,7 @@ It scales the two images to same size and resolution for a pixel-by-pixel compar
 Dice coefficient, which is essentially a measure of overlap between two samples measure ranges from 0 to 1 where a Dice coefficient of 1 denotes perfect and complete overlap.
 Because our target mask is binary, we effectively zero-out any pixels from our prediction which are not "activated" in the target mask. For the remaining pixels, we are essentially penalizing low-confidence predictions; a higher value for this expression, which is in the numerator, leads to a better Dice coefficient.
 
-As these losses are very efficient, I also combined them during prediction of DepthNet. You can see all the applied combinations here.![](\DeepNet\DeepNet\model\losses).
+As these losses are very efficient, I also combined them during prediction of DepthNet. You can see all the applied combinations [here](deepnet/model/losses).
 
 Following is the behaviour of some of the combination of loss functions:
 
@@ -120,7 +120,7 @@ Following is the behaviour of some of the combination of loss functions:
 
 
 ### Experiments
-To look at the all experiments I have performed, go here.![](\DeepNet\Experiments)
+To look at the all experiments I have performed, go [here](deepnet/experiments)
 
 ## Project Setup
 
